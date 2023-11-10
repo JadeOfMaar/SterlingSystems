@@ -5,6 +5,7 @@
 - Added FusionPellets production to large ICF engine.
 - Added Kerbalism configs. (Sun and Shadow shields can hold "Shielding" resource.)
 - Added System Heat and Kerbalism System Heat configs for all radiators.
+- Added System Heat configs for all current engines.
 - Added Sun and Shadow shields.
   - With detailed, fully localized tooltips and upgrades.
   - Shadow shields contribute to System Heat loop volume.
@@ -17,6 +18,9 @@
 - Changes to wrapper PVs:
   - Fully localized tooltips.
   - Updated upgrades information.
+- Changed SULEU engines to surface attach from their top, not their side.
+- Increased fuel demand on MSRs and PBRs to develop their balancing.
+- Reduced amounts of EnrU held by GCNTRs.
 
 ## 0.2.2
 ### Additions
