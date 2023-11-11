@@ -1,6 +1,6 @@
 # Sterling Systems
 
-# 0.2.3
+# 0.3.0
 ### Additions
 - Added FusionPellets production to large ICF engine.
 - Added Kerbalism configs. (Sun and Shadow shields can hold "Shielding" resource.)
