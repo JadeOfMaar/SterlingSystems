@@ -18,9 +18,11 @@
 - Changes to wrapper PVs:
   - Fully localized tooltips.
   - Updated upgrades information.
+- Added cost of EnrU to engines that hold it.
 - Changed SULEU engines to surface attach from their top, not their side.
-- Increased fuel demand on MSRs and PBRs to develop their balancing.
 - Reduced amounts of EnrU held by GCNTRs.
+- Updated balancing and tankage on fissile salt and fissile pebbles. Reactors should now hold 10 kerbal years worth of fuel by default and cost a lot more because the fuel is now more expensive.
+
 
 ## 0.2.2
 ### Additions
@@ -38,6 +40,7 @@
 - Fixed mesh problem with 3.75m wrapper solar panels.
 - Updated thermal efficiency curve of Delta Electro TBCs to hopefully fix zero efficiency bug when spawned with VesselMover.
 
+
 ## 0.2.1
 ### Changes
 - Renamed wrapper solar panels and wrapper radiators. **This will break craft files**.
@@ -46,6 +49,7 @@
 - Waterfall detection. `StockWaterfallEffects` is the particular plume pack needed.
 - Added missing localization, and B9 switching and System Heat config for wrapper solar panels.
 - Added missing System Heat config for 1.875m wrapper radiators.
+
 
 ## 0.2
 * Initial release
