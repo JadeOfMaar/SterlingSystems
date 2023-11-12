@@ -1,5 +1,11 @@
 # Sterling Systems
 
+# 0.3.1
+### Fixes
+- Fixed the System Heat Fission Engines module problem: Ensured that affected engines always hold the requested nuclear resource.
+- Updated localization (fixes an issue in the B9PS patch for the fuel cells).
+
+
 # 0.3.0
 ### Additions
 - Added FusionPellets production to large ICF engine.
