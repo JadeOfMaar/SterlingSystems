@@ -1,5 +1,11 @@
 # Sterling Systems
 
+# 0.3.2
+## Changes
+- Set Sun shield's System Heat loop temperature to 700 K, respecting its high heat tolerance as an armor but staying near to low temp radiator territory.
+- Updated the balancing of all wrapper radiators, inline heatsinks and the Sun shield to hopefully fit Nertea's balance scheme.
+
+
 # 0.3.1
 ### Fixes
 - Fixed the System Heat Fission Engines module problem: Ensured that affected engines always hold the requested nuclear resource.
