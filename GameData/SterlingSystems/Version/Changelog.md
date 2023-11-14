@@ -1,9 +1,15 @@
 # Sterling Systems
 
-# 0.3.2
-## Changes
+# 0.3.5
+### Changes
+- Moved Batteries to their own folder and away from FuelCells.
 - Set Sun shield's System Heat loop temperature to 700 K, respecting its high heat tolerance as an armor but staying near to low temp radiator territory.
-- Updated the balancing of all wrapper radiators, inline heatsinks and the Sun shield to hopefully fit Nertea's balance scheme.
+
+### Fixes
+- Fixed/Revised Upgrade parts. They show up in the tech tree now.
+- Updated the balancing of all electrics.
+- Updated the balancing of all thermals to hopefully fit Nertea's balance scheme.
+- Updated tech progression.
 
 
 # 0.3.1
