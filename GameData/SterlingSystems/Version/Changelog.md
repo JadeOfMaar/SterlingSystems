@@ -1,5 +1,20 @@
 # Sterling Systems
 
+# 0.3.6
+### Additions
+- Added World Power series parts: Giant vertical windmill and XXL solar panel.
+- Added tiny solar panels.
+
+### Changes
+- Set Sun shield's System Heat loop temperature to 650 K.
+
+
+### Fixes
+- Fixed Thermal nozzle Waterfall plume problem. It needed an Ignition controller.
+- Fixed Upgrades not showing in the CTT nodes.
+- Updated Waterfall configs to respect engines being duplicated and altered by Rational Resources Nuclear Family.
+
+
 # 0.3.5
 ### Changes
 - Moved Batteries to their own folder and away from FuelCells.
