@@ -4,6 +4,13 @@
 ### Additions
 - Added tank suite with these diameters: 2.5m, 3.75m, 5m.
 
+### Changes
+- Reduced added masses in Super Heavy shield.
+
+### Fixes
+- Fixed KerbalismSystemHeat problems.
+- Ensured that all wrapper radiators' stock module stats still change when used with devices that still use/generate Core Heat when System Heat installed.
+
 # 0.3.6
 ### Additions
 - Added World Power series parts: Giant vertical windmill and XXL solar panel.
