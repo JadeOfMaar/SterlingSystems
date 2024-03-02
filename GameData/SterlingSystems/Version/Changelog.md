@@ -1,5 +1,13 @@
 # Sterling Systems
 
+# 0.3.7.1
+### Changes
+- Tankage: Moved gas tank types to general liquid tank.
+
+### Fixes
+- Tankage: Added missing boiloff configs for Deuterium and Helium3.
+- Tankage: Removed dependency on Rational Resources.
+
 # 0.3.7
 ### Additions
 - Added tank suite with these diameters: 2.5m, 3.75m, 5m.
