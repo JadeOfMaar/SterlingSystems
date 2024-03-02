@@ -1,5 +1,9 @@
 # Sterling Systems
 
+# 0.3.7
+### Additions
+- Added tank suite with these diameters: 2.5m, 3.75m, 5m.
+
 # 0.3.6
 ### Additions
 - Added World Power series parts: Giant vertical windmill and XXL solar panel.
@@ -7,7 +11,6 @@
 
 ### Changes
 - Set Sun shield's System Heat loop temperature to 650 K.
-
 
 ### Fixes
 - Fixed Thermal nozzle Waterfall plume problem. It needed an Ignition controller.
