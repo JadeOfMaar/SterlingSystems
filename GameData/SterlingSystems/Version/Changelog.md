@@ -1,5 +1,11 @@
 # Sterling Systems
 
+# 0.3.7.2
+### Changes
+- KRUSTY and SCM reactors now produce waste heat (require radiators) and participate in System Heat.
+- Reduced turbine generator efficiency to 50% (from 75%). They now also produce waste heat.
+- Shuffled nuclear fuel tank options. (This will upset some craft designs.)
+
 # 0.3.7.1
 ### Changes
 - Tankage: Moved gas tank types to general liquid tank.
