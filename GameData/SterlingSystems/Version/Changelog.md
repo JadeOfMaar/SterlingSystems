@@ -8,12 +8,14 @@
   - Solar Thermal Tower
   - Air-breathing radiator suite
 - Added equivalent to Rational Resources Nuclear Family, removing external requirement.
+- Created custom Waterfall template for BCAM engine.
 
 ### Changes
 - Adjusted volume calculation for inline heatsinks. The larger ones get a bit more loop volume.
-- Buffed thrust on BCAM engine (Undid excessive nerf). Note: Liquid film radiators are not sufficient for it.
+- Buffed thrust on BCAM engine (Undid excessive nerf).
 - Raised some engines' loop temperature since the liquid film radiators now exist and can cover their great needs.
 - Changed Olympian and Icarus ICF engines to be single-mode.
+- Reduced System Heat power of BCAM engine. Its scale factor was 10x what it should be.
 
 ### Fixes
 - Fixed Icarus engine's System Heat engine module and converter module using the same heat loop.
