@@ -1,5 +1,26 @@
 # Sterling Systems
 
+# 0.3.8
+### Additions
+- Added Stackable liquid film radiators.
+- Added World Power parts:
+  - Solar Thermal Panel
+  - Solar Thermal Tower
+  - Air-breathing radiator suite
+- Added equivalent to Rational Resources Nuclear Family, removing external requirement.
+
+### Changes
+- Adjusted volume calculation for inline heatsinks. The larger ones get a bit more loop volume.
+- Buffed thrust on BCAM engine (Undid excessive nerf). Note: Liquid film radiators are not sufficient for it.
+- Raised some engines' loop temperature since the liquid film radiators now exist and can cover their great needs.
+- Changed Olympian and Icarus ICF engines to be single-mode.
+
+### Fixes
+- Fixed Icarus engine's System Heat engine module and converter module using the same heat loop.
+- Fixed possible missing/incomplete KerbalismSystemHeat patches.
+- Fixed tank shroud issue and antimatter issues with Sterling Tankage.
+- Fixed turbine generators missing System Heat modules (resulting in -1% efficiency).
+
 # 0.3.7.2
 ### Changes
 - KRUSTY and SCM reactors now produce waste heat (require radiators) and participate in System Heat.
