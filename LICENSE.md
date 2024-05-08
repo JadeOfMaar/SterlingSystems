@@ -1,5 +1,5 @@
-© 2023 JadeOfMaar
+© 2023-2024 JadeOfMaar
 
 Models and textures are All Rights Reserved.
 
-Configs are ShareAlike.
+Configs are ShareAlike CC-BY-SA.
