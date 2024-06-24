@@ -1,6 +1,32 @@
 # Sterling Systems
 
+# 0.3.9
+
+### Additions
+- Added taller Stackable LFR.
+
+### Changes
+- Changed MSRs and PBRs to contribute to System Heat loops.
+- Changed SULEU engines to have built-in Pebble Bed reactors.
+- Moved thermal reactors out of Electric category and into Thermal category.
+- Moved World Power out of Electric category and into distinct download.
+- Moved all localization files into Agency folder.
+
+### Fixes
+- Fixed Super heavy shield tooltip saying "Ablator? enabled" when it's not, in ThP variant.
+- Fixed Icarus ICF engine's ISRU not asking for Deuterium under System Heat.
+- Fixed a tank having the wrong title and description.
+- Fixed excessive System Heat production in SULEU and thermal nozzles.
+- Fixed node and ground collider offset problems in World Power parts.
+- Fixed weak joint strength on LFRs.
+
+# 0.3.8.1
+
+- Fixed System Heat engine efficiency curves.
+- Raised loop temperatures on Delta Electro generators. Evidently it was impossible or excessively hard to adequately cool them.
+
 # 0.3.8
+
 ### Additions
 - Added Stackable liquid film radiators.
 - Added World Power parts:
@@ -24,12 +50,14 @@
 - Fixed turbine generators missing System Heat modules (resulting in -1% efficiency).
 
 # 0.3.7.2
+
 ### Changes
 - KRUSTY and SCM reactors now produce waste heat (require radiators) and participate in System Heat.
 - Reduced turbine generator efficiency to 50% (from 75%). They now also produce waste heat.
 - Shuffled nuclear fuel tank options. (This will upset some craft designs.)
 
 # 0.3.7.1
+
 ### Changes
 - Tankage: Moved gas tank types to general liquid tank.
 
@@ -38,6 +66,7 @@
 - Tankage: Removed dependency on Rational Resources.
 
 # 0.3.7
+
 ### Additions
 - Added tank suite with these diameters: 2.5m, 3.75m, 5m.
 
@@ -49,6 +78,7 @@
 - Ensured that all wrapper radiators' stock module stats still change when used with devices that still use/generate Core Heat when System Heat installed.
 
 # 0.3.6
+
 ### Additions
 - Added World Power series parts: Giant vertical windmill and XXL solar panel.
 - Added tiny solar panels.
@@ -63,6 +93,7 @@
 
 
 # 0.3.5
+
 ### Changes
 - Moved Batteries to their own folder and away from FuelCells.
 - Set Sun shield's System Heat loop temperature to 700 K, respecting its high heat tolerance as an armor but staying near to low temp radiator territory.
@@ -75,12 +106,14 @@
 
 
 # 0.3.1
+
 ### Fixes
 - Fixed the System Heat Fission Engines module problem: Ensured that affected engines always hold the requested nuclear resource.
 - Updated localization (fixes an issue in the B9PS patch for the fuel cells).
 
 
 # 0.3.0
+
 ### Additions
 - Added FusionPellets production to large ICF engine.
 - Added Kerbalism configs. (Sun and Shadow shields can hold "Shielding" resource.)
@@ -105,6 +138,7 @@
 
 
 ## 0.2.2
+
 ### Additions
 - Added SULEU (NERV alternative) engines.
 
@@ -122,6 +156,7 @@
 
 
 ## 0.2.1
+
 ### Changes
 - Renamed wrapper solar panels and wrapper radiators. **This will break craft files**.
 
