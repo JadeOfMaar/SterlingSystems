@@ -3,14 +3,20 @@
 # 0.3.9
 
 ### Additions
+- Added low temperature wrapper radiators.
 - Added taller Stackable LFR.
 
 ### Changes
+- Changed System Heat engine configs to require System Heat but not its Fission Engines extra (mostly).
 - Changed MSRs and PBRs to contribute to System Heat loops.
 - Changed SULEU engines to have built-in Pebble Bed reactors.
 - Moved thermal reactors out of Electric category and into Thermal category.
 - Moved World Power out of Electric category and into distinct download.
 - Moved all localization files into Agency folder.
+- Updated radiators overall based on an RO dev's advice:
+  - Their temperature curves are no longer linear but parabolic, following the 4th power of the given temperature.
+  - High temperature radiators are passive and consume 0 ElectricCharge.
+  - High temperature radiators do not sub-cool parts but low temperature radiators do.
 
 ### Fixes
 - Fixed Super heavy shield tooltip saying "Ablator? enabled" when it's not, in ThP variant.
