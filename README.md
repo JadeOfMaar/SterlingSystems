@@ -19,7 +19,7 @@ As at May 2024 these are the available categories:
   - Wrapper heatshields
   - Wrapper radiators
   - Exotic radiators
-    - Liquid Film
+    - Liquid film
 - Fuel Tank
   - Drums and spheres/pills for every occasion. In sizes: 2.5m, 3.75m, 5m
 
