@@ -7,7 +7,7 @@ As at May 2024 these are the available categories:
 - Electrical
   - Batteries<sup>4</sup>
   - Generators<sup>3</sup>
-  - Solar (photovoltaic) panels (Mostly wrapper type)
+  - Solar (photovoltaic) panels (Mostly wrapper forms)
   - Metal fuel cells<sup>5</sup>  
 - Engines
   - Nuclear thermal<sup>1</sup>
@@ -19,7 +19,7 @@ As at May 2024 these are the available categories:
   - Wrapper heatshields
   - Wrapper radiators
   - Exotic radiators
-    - Liquid Film
+    - Liquid film
 - Fuel Tank
   - Drums and spheres/pills for every occasion. In sizes: 2.5m, 3.75m, 5m
 
@@ -39,6 +39,12 @@ Wrapper heatshields, radiators and solar panels come in the standard sizes betwe
 ## Compatibilities
 - Community Resource Pack
 - Far Future Technologies
+- Indicator Lights
 - Kerbalism
+- Simple Repaint (only the whites of parts will be recolored) 
 - System Heat
 - Waterfall
+
+## Known Issues
+- Part stats and models may change due to current pre-release state.
+- dV calculators do not ignore massless resources other than ElectricCharge so it will be a pain to get the dV for engines that ask for ThermalPower (while in ship editors. Not so in flight).
