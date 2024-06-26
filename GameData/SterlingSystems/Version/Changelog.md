@@ -1,6 +1,6 @@
 # Sterling Systems
 
-# 0.3.9
+# 0.4.0
 
 ### Additions
 - Added low temperature wrapper radiators.
@@ -13,6 +13,7 @@
 - Moved thermal reactors out of Electric category and into Thermal category.
 - Moved World Power out of Electric category and into distinct download.
 - Moved all localization files into Agency folder.
+- Updated Sterling Tankage: Added stack nodes that don't trigger the trusses.
 - Updated radiators tech tree positions (stock and CTT).
 - Updated radiators overall based on an RO dev's advice:
   - Their temperature curves are no longer linear but parabolic, following the 4th power of the given temperature.
