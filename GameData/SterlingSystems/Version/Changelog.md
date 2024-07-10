@@ -1,5 +1,13 @@
 # Sterling Systems
 
+# 0.4.0.1
+
+### Fixes
+- Updated Sterling Tankage: 
+  - Fixed tank ratios of D+3He.
+- Updated Sterling Thermals: 
+  - Reduced waste heat generation of thermal reactors further. As a fraction it was tiny but as absolute values it was still too much.
+
 # 0.4.0
 
 ### Additions
