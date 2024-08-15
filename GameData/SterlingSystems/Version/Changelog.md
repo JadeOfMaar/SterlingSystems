@@ -1,10 +1,10 @@
 # Sterling Systems
 
-# 0.4.0.1
+# 0.4.0.2
 
 ### Fixes
 - Updated Sterling Electric: 
-  - Fixed Reactors producing DepletedUranium when they should be producing DepletedFuel.
+  - Fixed reactors producing DepletedUranium when they should be producing DepletedFuel.
   - Fixed SCM reactor treating DepletedUranium as an input.
 - Updated Sterling Tankage: 
   - Added missing 'Jettison Contents' button to the Ore tanks.
