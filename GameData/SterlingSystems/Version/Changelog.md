@@ -1,12 +1,20 @@
 # Sterling Systems
 
-# 0.4.0.1
+# 0.4.0.2
 
 ### Fixes
+- Updated Sterling Electric: 
+  - Fixed reactors producing DepletedUranium when they should be producing DepletedFuel.
+  - Fixed SCM reactor treating DepletedUranium as an input.
 - Updated Sterling Tankage: 
+  - Added missing 'Jettison Contents' button to the Ore tanks.
   - Fixed tank ratios of D+3He.
+  - Updated Simple Construction detection. Should stop the B9PS fatal error (MetalOre resource not defined) caused by that mod.
 - Updated Sterling Thermals: 
+  - Fixed error assigning added mass and cost to film radiator subtypes. (PR from @arbsoup)
+  - Fixed calculation error behind displayed cooling powers of some film radiators. (PR from @arbsoup)
   - Reduced waste heat generation of thermal reactors further. As a fraction it was tiny but as absolute values it was still too much.
+  - Removed patch for Kerbalism Shielding resource for super heavy shield. Kerbalism profile problems make it a bad idea to keep this feature.
 
 # 0.4.0
 
