@@ -1,5 +1,29 @@
 # Sterling Systems
 
+# 0.5.0 WIP
+
+### Additions
+- Added Chinese localization provided by @Aebestach.
+- Added Sterling Utilities:
+  - Added Circular Refinery suite.
+  - Added recipes concerning reactor fuels.
+  - Tagged compatible Omniconverter recipes in WildBlueTools to appear in Sterling Omniconverters.
+  
+### Changes
+- Reorganized mod folders and added to modularity of install. CKAN ready.
+- Updated Sterling Tankage: 
+  - Added ExoticMinerals tank type.
+  - Updated unitsPerVolume on tank types. They were nerfed in error.
+
+### Fixes
+- Updated Sterling Electric:
+  - Fixed missing } in localization.
+  - Fixed missing # in Delta Electro (non-System Heat) power config. Error caused the parts to be invalid and not appear.
+- Updated Sterling Thermals:
+  - Added DRE detection. DRE renames the ablator module which upsets the super heavy shield.
+  - Fixed slight detached geometry in 3.75m white wrapper radiators.
+
+
 # 0.4.0.2
 
 ### Fixes
