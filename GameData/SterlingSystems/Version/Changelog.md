@@ -1,11 +1,13 @@
 # Sterling Systems
 
-# 0.5.0 WIP
+# 0.5.0
 
 ### Additions
 - Added Chinese localization provided by @Aebestach.
 - Added Sterling Utilities:
-  - Added Circular Refinery suite.
+  - Added Circular Refinery (Omniconverter only) suite.
+  - Added Circular Printery EL drone / Sandcastle printer suite.
+  - Added construction site suite: Rocket pads, runway, variable field with Omnistorage.
   - Added recipes concerning reactor fuels.
   - Tagged compatible Omniconverter recipes in WildBlueTools to appear in Sterling Omniconverters.
   
