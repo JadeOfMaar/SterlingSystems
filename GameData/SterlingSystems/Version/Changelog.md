@@ -16,6 +16,10 @@
 - Updated Sterling Tankage: 
   - Added ExoticMinerals tank type.
   - Updated unitsPerVolume on tank types. They were nerfed in error.
+- Updated Sterling Thermals:
+  - Added emissives for wrapper heatshields and super heavy shield.
+  - Removed stock shiny shader and texture from super heavy shield.
+  - Restored radiator module for inline heatsinks.
 
 ### Fixes
 - Updated Sterling Electric:
