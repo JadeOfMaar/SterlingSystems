@@ -1,6 +1,6 @@
 # Sterling Systems
 
-# 0.5.0
+# 0.4.9
 
 ### Additions
 - Added Chinese localization provided by @Aebestach.
