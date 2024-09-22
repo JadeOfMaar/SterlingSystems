@@ -1,0 +1,15 @@
+identifier: SterlingEnginesFi
+name: Sterling Engines - Fission
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Engines'
+$vref: '#/ckan/ksp-avc'
+abstract: Engines that hold fissile material and are high thrust
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingAgent
+  - name: SterlingEngines
+install:
+  - find: EnginesFission
+    install_to: GameData/SterlingSystems

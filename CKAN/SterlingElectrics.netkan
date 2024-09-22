@@ -1,0 +1,14 @@
+identifier: SterlingElectrics
+name: Sterling Electrics
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Electrics'
+$vref: '#/ckan/ksp-avc'
+abstract: Batteries and thermoelectric converters
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingAgent
+install:
+  - find: Electrics
+    install_to: GameData/SterlingSystems

@@ -1,0 +1,17 @@
+identifier: SterlingThermals
+name: Sterling Thermals
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Thermals'
+$vref: '#/ckan/ksp-avc'
+abstract: Radiators and shields (mostly conformal) and inline heatsinks
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingAgent
+supports:
+  - name: CryoTanks
+  - name: FarFutureTechnologies
+install:
+  - find: Thermals
+    install_to: GameData/SterlingSystems

@@ -1,0 +1,21 @@
+identifier: SterlingUtilitiesConstruction
+name: Sterling Utilities - Construction
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Utilities'
+$vref: '#/ckan/ksp-avc'
+abstract: Parts for making parts and whole ships
+tags:
+  - config
+  - parts
+  - resources
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingAgent
+  - name: SterlingUtilities
+recommends:
+  - Sandcastle
+supports:
+  - ExtraPlanetaryLaunchpads
+install:
+  - find: UtilitiesConstruction
+    install_to: GameData/SterlingSystems
