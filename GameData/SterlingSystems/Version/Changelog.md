@@ -1,11 +1,13 @@
 # Sterling Systems
 
-# 0.5.0 WIP
+# 0.4.9
 
 ### Additions
 - Added Chinese localization provided by @Aebestach.
 - Added Sterling Utilities:
-  - Added Circular Refinery suite.
+  - Added Circular Refinery (Omniconverter only) suite.
+  - Added Circular Printery EL drone / Sandcastle printer suite.
+  - Added construction site suite: Rocket pads, runway, variable field with Omnistorage.
   - Added recipes concerning reactor fuels.
   - Tagged compatible Omniconverter recipes in WildBlueTools to appear in Sterling Omniconverters.
   
@@ -14,6 +16,10 @@
 - Updated Sterling Tankage: 
   - Added ExoticMinerals tank type.
   - Updated unitsPerVolume on tank types. They were nerfed in error.
+- Updated Sterling Thermals:
+  - Added emissives for wrapper heatshields and super heavy shield.
+  - Removed stock shiny shader and texture from super heavy shield.
+  - Restored radiator module for inline heatsinks.
 
 ### Fixes
 - Updated Sterling Electric:

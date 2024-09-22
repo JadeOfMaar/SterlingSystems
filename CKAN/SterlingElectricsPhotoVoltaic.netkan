@@ -1,0 +1,15 @@
+identifier: SterlingElectricsPV
+name: Sterling Electrics - PhotoVoltaics
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Electrics'
+$vref: '#/ckan/ksp-avc'
+abstract: Solar panels (mostly conformal)
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingAgent
+  - name: SterlingElectrics
+install:
+  - find: ElectricsPhotoVoltaic
+    install_to: GameData/SterlingSystems

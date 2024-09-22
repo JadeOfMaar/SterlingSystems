@@ -1,0 +1,15 @@
+identifier: SterlingWorldPower
+name: Sterling World Power
+$kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/WorldPower'
+$vref: '#/ckan/ksp-avc'
+abstract: Boxed parts designed to cluster easily like in RTS games and provide massive power and cooling for your colonies
+tags:
+  - parts
+depends:
+  - name: ModuleManager
+  - name: B9PartSwitch
+  - name: SterlingAgent
+  - name: SterlingElectrics
+install:
+  - find: WorldPower
+    install_to: GameData/SterlingSystems
