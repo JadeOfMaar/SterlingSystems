@@ -1,5 +1,32 @@
 # Sterling Systems
 
+# 0.4.10
+
+### Fixes
+- Updated Sterling Electric:
+  - Model path was incorrect for the SubCritical Multiplier and the KRUSTY. They are selectable again.
+  - Super batteries no longer have excessive mass and cost applied through their height selector.
+- Updated Sterling Engines:
+  - Nuclear Family patch will apply to SULEU engines. (It had a bad and obsolete detection for Rational Resources Nuclear Family.)
+  - Nuclear Family patch will no longer divide and clone the SULEU engines. 
+- Updated Sterling Tankage:
+  - Added Kerbalism FFT Antimatter tank module to Antimatter tanks.
+- Updated Sterling Thermals:
+  - Added SHINY to Super Heavy shield.
+  - Added emissive overheat to wrapper heatshields.
+  - Added detection for Deadly Reentry on the Super Heavy Shield. Fixes related B9PS error.
+  - Reduced Conical Shadow Shield's dry mass and added mass by its size selector.
+  - Reduced dry masses of larger fission reactors. The huge mass was realistic...but questionable for long enough.
+- Updated Sterling Utilities:
+  - Added thermal powered Metals smelting recipe.
+  - Added missing length colliders to runway.
+  - Omniconverter system will no longer appear when Kerbalism installed. (Rational Resources Kerbalism updated to cover for this.)
+- Updated World Power:
+  - Added patch to reverse Kerbalism's effects on the solar thermal panels. They do not produce ElectricCharge and so should not be considered by the Planner but also, Kerbalism's solar panel fix module makes them entirely unusable.
+  - Added patch to remove the generator function from the tracking solar thermal panel under Kerbalism. The Planner does not recognize it.
+  - Reduced boxed part masses to < 1 ton.
+  
+
 # 0.4.9
 
 ### Additions
