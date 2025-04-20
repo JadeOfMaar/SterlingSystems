@@ -7,7 +7,7 @@
 - Updated Sterling Thermals:
   - Added wrapper heatshields for stock Mk2 and Mk3 adapters.
 - Updated Sterling World Power:
-  - Added solar panel type 2 and widmimill type 2.
+  - Added solar panel type 2 and windmill type 2.
   - Added tune-able wide radiator based on solar panel type 2.
   - Added Resurfaced for these.
   - Updated windmills to be deployable always-on converters when Planetside Exploration Tech not installed.
