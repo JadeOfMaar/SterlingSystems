@@ -15,6 +15,8 @@
 ### Changes
 - Updated World Power:
   - Added toggle for Underground meshes.
+- Updated Sterling Engines:
+  - :warning: Removed Nuclear Family implementation. Seeking to test the waters with [Ignition](https://github.com/CharleRoger/Ignition/tree/main).
 
 ### Fixes
 - Updated Sterling Electric:
