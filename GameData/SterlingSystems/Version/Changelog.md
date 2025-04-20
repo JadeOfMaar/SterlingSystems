@@ -1,6 +1,40 @@
 # Sterling Systems
 
-# 0.4.10
+## 0.4.11
+
+### Additions
+- Added Sterling Kerbalism: Collection of Kerbalism specific things previously released with Rational Resources.
+- Updated Sterling Thermals:
+  - Added wrapper heatshields for stock Mk2 and Mk3 adapters.
+- Updated Sterling World Power:
+  - Added solar panel type 2 and widmimill type 2.
+  - Added tune-able wide radiator based on solar panel type 2.
+  - Added Resurfaced for these.
+  - Updated windmills to be deployable always-on converters when Planetside Exploration Tech not installed.
+
+### Changes
+- Updated World Power:
+  - Added toggle for Underground meshes.
+
+### Fixes
+- Updated Sterling Electric:
+  - Added missing skinMaxTemp keys to parts and B9 upgrades. Wrapper solar panels had edge cases of (skin) heat tolerance dipping back to 1200K.
+- Updated Sterling Engines:
+  - Fixed Antimatter propellant ratio in 10m BCAM.
+  - Fixed basic CRP config to not run when Classic Stock Resources (CSR) installed.
+  - Added parallel CSR config.
+- Updated Sterling Tankage:
+  - Make Ore option always appear.
+  - Fixed CRP detection fatal issue.
+- Updated Sterling Utilities:
+  - Fixed EL module injection patch to only affect Molten Metal Foundry.
+- Updated Sterling UtilitiesConstruction:
+  - Updated WBI Sandcastle module names per Sandcastle 1.3.0 release.
+- Updated World Power:
+  - Fixed Solar PV panel whole part material changed when selecting concentrator variant.
+
+
+## 0.4.10
 
 ### Fixes
 - Updated Sterling Electric:
@@ -27,7 +61,7 @@
   - Reduced boxed part masses to < 1 ton.
   
 
-# 0.4.9
+## 0.4.9
 
 ### Additions
 - Added Chinese localization provided by @Aebestach.
@@ -57,7 +91,7 @@
   - Fixed slight detached geometry in 3.75m white wrapper radiators.
 
 
-# 0.4.0.2
+## 0.4.0.2
 
 ### Fixes
 - Updated Sterling Electric: 
@@ -73,7 +107,7 @@
   - Reduced waste heat generation of thermal reactors further. As a fraction it was tiny but as absolute values it was still too much.
   - Removed patch for Kerbalism Shielding resource for super heavy shield. Kerbalism profile problems make it a bad idea to keep this feature.
 
-# 0.4.0
+## 0.4.0
 
 ### Additions
 - Added low temperature wrapper radiators.
@@ -101,12 +135,12 @@
 - Fixed node and ground collider offset problems in World Power parts.
 - Fixed weak joint strength on LFRs.
 
-# 0.3.8.1
+## 0.3.8.1
 
 - Fixed System Heat engine efficiency curves.
 - Raised loop temperatures on Delta Electro generators. Evidently it was impossible or excessively hard to adequately cool them.
 
-# 0.3.8
+## 0.3.8
 
 ### Additions
 - Added Stackable liquid film radiators.
@@ -130,14 +164,14 @@
 - Fixed tank shroud issue and antimatter issues with Sterling Tankage.
 - Fixed turbine generators missing System Heat modules (resulting in -1% efficiency).
 
-# 0.3.7.2
+## 0.3.7.2
 
 ### Changes
 - KRUSTY and SCM reactors now produce waste heat (require radiators) and participate in System Heat.
 - Reduced turbine generator efficiency to 50% (from 75%). They now also produce waste heat.
 - Shuffled nuclear fuel tank options. (This will upset some craft designs.)
 
-# 0.3.7.1
+## 0.3.7.1
 
 ### Changes
 - Tankage: Moved gas tank types to general liquid tank.
@@ -146,7 +180,7 @@
 - Tankage: Added missing boiloff configs for Deuterium and Helium3.
 - Tankage: Removed dependency on Rational Resources.
 
-# 0.3.7
+## 0.3.7
 
 ### Additions
 - Added tank suite with these diameters: 2.5m, 3.75m, 5m.
@@ -158,7 +192,7 @@
 - Fixed KerbalismSystemHeat problems.
 - Ensured that all wrapper radiators' stock module stats still change when used with devices that still use/generate Core Heat when System Heat installed.
 
-# 0.3.6
+## 0.3.6
 
 ### Additions
 - Added World Power series parts: Giant vertical windmill and XXL solar panel.
@@ -173,7 +207,7 @@
 - Updated Waterfall configs to respect engines being duplicated and altered by Rational Resources Nuclear Family.
 
 
-# 0.3.5
+## 0.3.5
 
 ### Changes
 - Moved Batteries to their own folder and away from FuelCells.
@@ -186,14 +220,14 @@
 - Updated tech progression.
 
 
-# 0.3.1
+## 0.3.1
 
 ### Fixes
 - Fixed the System Heat Fission Engines module problem: Ensured that affected engines always hold the requested nuclear resource.
 - Updated localization (fixes an issue in the B9PS patch for the fuel cells).
 
 
-# 0.3.0
+## 0.3.0
 
 ### Additions
 - Added FusionPellets production to large ICF engine.
