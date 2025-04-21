@@ -13,10 +13,17 @@
   - Updated windmills to be deployable always-on converters when Planetside Exploration Tech not installed.
 
 ### Changes
-- Updated World Power:
-  - Added toggle for Underground meshes.
+- Updated Sterling Agency:
+  - All associated part upgrade and localization changes.
+- Updated Sterling Electrics, Thermals, Thermals Power:
+  - Updated CTT locations of fission reactors and heat sinks.
 - Updated Sterling Engines:
   - :warning: Removed Nuclear Family implementation. Seeking to test the waters with [Ignition](https://github.com/CharleRoger/Ignition/tree/main).
+- Updated Sterling Thermals:
+  - Made inline heatsinks upgrade-able, adding more mass, loop volume and ThermalPower capacity.
+  - Made inline heatsinks lower mass and have 1/25 original ThermalPower capacity.
+- Updated World Power:
+  - Added toggle for Underground meshes.
 
 ### Fixes
 - Updated Sterling Electric:
