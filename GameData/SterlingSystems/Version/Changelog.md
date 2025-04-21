@@ -9,7 +9,7 @@
 - Updated Sterling World Power:
   - Added solar panel type 2 and windmill type 2.
   - Added tune-able wide radiator based on solar panel type 2.
-  - Added Resurfaced for these.
+  - Added Resurfaced for these. (Actually this isn't working. Will figure out later.)
   - Updated windmills to be deployable always-on converters when Planetside Exploration Tech not installed.
 
 ### Changes
