@@ -1,5 +1,23 @@
 # Sterling Systems
 
+## 0.4.11.1
+
+### Additions
+- Updated Sterling Electrics:
+  - Added 0.625m Betavoltaics.
+  
+### Changes
+- Added Kerbal Health compatibility.
+- Updated Sterling Electrics:
+  - Added fuel cell B9 opion colors.
+- Updated Sterling Tankage:
+  - Added options for Beryllium and LqdFluorine. Both are very hazardous so check the black tanks for them.
+  - Added System Heat Boiloff compatibility. Instead of asking for ElectricCharge, cryotanks ask for their own loop.
+- Updated Sterling Thermals:
+  - Rebalanced wrapper radiators. Cryo radiators are lower mass and capacity. Metal radiators are higher mass and capacity. Graphene radiators mostly gain but somewhat also lose.
+
+
+
 ## 0.4.11
 
 ### Additions
@@ -26,7 +44,7 @@
   - Added toggle for Underground meshes.
 
 ### Fixes
-- Updated Sterling Electric:
+- Updated Sterling Electrics:
   - Added missing skinMaxTemp keys to parts and B9 upgrades. Wrapper solar panels had edge cases of (skin) heat tolerance dipping back to 1200K.
 - Updated Sterling Engines:
   - Fixed Antimatter propellant ratio in 10m BCAM.
@@ -46,7 +64,7 @@
 ## 0.4.10
 
 ### Fixes
-- Updated Sterling Electric:
+- Updated Sterling Electrics:
   - Model path was incorrect for the SubCritical Multiplier and the KRUSTY. They are selectable again.
   - Super batteries no longer have excessive mass and cost applied through their height selector.
 - Updated Sterling Engines:
@@ -92,7 +110,7 @@
   - Restored radiator module for inline heatsinks.
 
 ### Fixes
-- Updated Sterling Electric:
+- Updated Sterling Electrics:
   - Fixed missing } in localization.
   - Fixed missing # in Delta Electro (non-System Heat) power config. Error caused the parts to be invalid and not appear.
 - Updated Sterling Thermals:
@@ -103,7 +121,7 @@
 ## 0.4.0.2
 
 ### Fixes
-- Updated Sterling Electric: 
+- Updated Sterling Electrics: 
   - Fixed reactors producing DepletedUranium when they should be producing DepletedFuel.
   - Fixed SCM reactor treating DepletedUranium as an input.
 - Updated Sterling Tankage: 
