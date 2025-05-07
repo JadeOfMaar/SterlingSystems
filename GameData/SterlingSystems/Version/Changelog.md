@@ -1,13 +1,15 @@
 # Sterling Systems
 
-## 0.4.11.1
+## 0.4.12
 
 ### Additions
+- Added Kerbal Health compatibility.
 - Updated Sterling Electrics:
   - Added 0.625m Betavoltaics.
+- Updated Sterling Core:
+  - Added Alternate Resource Panel icons for nuclear resources.
   
 ### Changes
-- Added Kerbal Health compatibility.
 - Updated Sterling Electrics:
   - Added fuel cell B9 opion colors.
 - Updated Sterling Tankage:
@@ -15,6 +17,12 @@
   - Added System Heat Boiloff compatibility. Instead of asking for ElectricCharge, cryotanks ask for their own loop.
 - Updated Sterling Thermals:
   - Rebalanced wrapper radiators. Cryo radiators are lower mass and capacity. Metal radiators are higher mass and capacity. Graphene radiators mostly gain but somewhat also lose.
+- Updated World Power:
+  - Resurfaced.
+
+### Fixes
+- Updated World Power:
+  - Fixed solar furnace config pointing to solar PV type 2's model, and other issues therein.
 
 
 
