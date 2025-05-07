@@ -1,9 +1,78 @@
 # Sterling Systems
 
-# 0.4.10
+## 0.4.12
+
+### Additions
+- Added Kerbal Health compatibility.
+- Updated Sterling Electrics:
+  - Added 0.625m Betavoltaics.
+- Updated Sterling Core:
+  - Added Alternate Resource Panel icons for nuclear resources.
+  
+### Changes
+- Updated Sterling Electrics:
+  - Added fuel cell B9 opion colors.
+- Updated Sterling Tankage:
+  - Added options for Beryllium and LqdFluorine. Both are very hazardous so check the black tanks for them.
+  - Added System Heat Boiloff compatibility. Instead of asking for ElectricCharge, cryotanks ask for their own loop.
+- Updated Sterling Thermals:
+  - Rebalanced wrapper radiators. Cryo radiators are lower mass and capacity. Metal radiators are higher mass and capacity. Graphene radiators mostly gain but somewhat also lose.
+- Updated World Power:
+  - Resurfaced.
 
 ### Fixes
-- Updated Sterling Electric:
+- Updated World Power:
+  - Fixed solar furnace config pointing to solar PV type 2's model, and other issues therein.
+
+
+
+## 0.4.11
+
+### Additions
+- Added Sterling Kerbalism: Collection of Kerbalism specific things previously released with Rational Resources.
+- Updated Sterling Thermals:
+  - Added wrapper heatshields for stock Mk2 and Mk3 adapters.
+- Updated Sterling World Power:
+  - Added solar panel type 2 and windmill type 2.
+  - Added tune-able wide radiator based on solar panel type 2.
+  - Added Resurfaced for these. (Actually this isn't working. Will figure out later.)
+  - Updated windmills to be deployable always-on converters when Planetside Exploration Tech not installed.
+
+### Changes
+- Updated Sterling Agency:
+  - All associated part upgrade and localization changes.
+- Updated Sterling Electrics, Thermals, Thermals Power:
+  - Updated CTT locations of fission reactors and heat sinks.
+- Updated Sterling Engines:
+  - :warning: Removed Nuclear Family implementation. Seeking to test the waters with [Ignition](https://github.com/CharleRoger/Ignition/tree/main).
+- Updated Sterling Thermals:
+  - Made inline heatsinks upgrade-able, adding more mass, loop volume and ThermalPower capacity.
+  - Made inline heatsinks lower mass and have 1/25 original ThermalPower capacity.
+- Updated World Power:
+  - Added toggle for Underground meshes.
+
+### Fixes
+- Updated Sterling Electrics:
+  - Added missing skinMaxTemp keys to parts and B9 upgrades. Wrapper solar panels had edge cases of (skin) heat tolerance dipping back to 1200K.
+- Updated Sterling Engines:
+  - Fixed Antimatter propellant ratio in 10m BCAM.
+  - Fixed basic CRP config to not run when Classic Stock Resources (CSR) installed.
+  - Added parallel CSR config.
+- Updated Sterling Tankage:
+  - Make Ore option always appear.
+  - Fixed CRP detection fatal issue.
+- Updated Sterling Utilities:
+  - Fixed EL module injection patch to only affect Molten Metal Foundry.
+- Updated Sterling UtilitiesConstruction:
+  - Updated WBI Sandcastle module names per Sandcastle 1.3.0 release.
+- Updated World Power:
+  - Fixed Solar PV panel whole part material changed when selecting concentrator variant.
+
+
+## 0.4.10
+
+### Fixes
+- Updated Sterling Electrics:
   - Model path was incorrect for the SubCritical Multiplier and the KRUSTY. They are selectable again.
   - Super batteries no longer have excessive mass and cost applied through their height selector.
 - Updated Sterling Engines:
@@ -27,7 +96,7 @@
   - Reduced boxed part masses to < 1 ton.
   
 
-# 0.4.9
+## 0.4.9
 
 ### Additions
 - Added Chinese localization provided by @Aebestach.
@@ -49,7 +118,7 @@
   - Restored radiator module for inline heatsinks.
 
 ### Fixes
-- Updated Sterling Electric:
+- Updated Sterling Electrics:
   - Fixed missing } in localization.
   - Fixed missing # in Delta Electro (non-System Heat) power config. Error caused the parts to be invalid and not appear.
 - Updated Sterling Thermals:
@@ -57,10 +126,10 @@
   - Fixed slight detached geometry in 3.75m white wrapper radiators.
 
 
-# 0.4.0.2
+## 0.4.0.2
 
 ### Fixes
-- Updated Sterling Electric: 
+- Updated Sterling Electrics: 
   - Fixed reactors producing DepletedUranium when they should be producing DepletedFuel.
   - Fixed SCM reactor treating DepletedUranium as an input.
 - Updated Sterling Tankage: 
@@ -73,7 +142,7 @@
   - Reduced waste heat generation of thermal reactors further. As a fraction it was tiny but as absolute values it was still too much.
   - Removed patch for Kerbalism Shielding resource for super heavy shield. Kerbalism profile problems make it a bad idea to keep this feature.
 
-# 0.4.0
+## 0.4.0
 
 ### Additions
 - Added low temperature wrapper radiators.
@@ -101,12 +170,12 @@
 - Fixed node and ground collider offset problems in World Power parts.
 - Fixed weak joint strength on LFRs.
 
-# 0.3.8.1
+## 0.3.8.1
 
 - Fixed System Heat engine efficiency curves.
 - Raised loop temperatures on Delta Electro generators. Evidently it was impossible or excessively hard to adequately cool them.
 
-# 0.3.8
+## 0.3.8
 
 ### Additions
 - Added Stackable liquid film radiators.
@@ -130,14 +199,14 @@
 - Fixed tank shroud issue and antimatter issues with Sterling Tankage.
 - Fixed turbine generators missing System Heat modules (resulting in -1% efficiency).
 
-# 0.3.7.2
+## 0.3.7.2
 
 ### Changes
 - KRUSTY and SCM reactors now produce waste heat (require radiators) and participate in System Heat.
 - Reduced turbine generator efficiency to 50% (from 75%). They now also produce waste heat.
 - Shuffled nuclear fuel tank options. (This will upset some craft designs.)
 
-# 0.3.7.1
+## 0.3.7.1
 
 ### Changes
 - Tankage: Moved gas tank types to general liquid tank.
@@ -146,7 +215,7 @@
 - Tankage: Added missing boiloff configs for Deuterium and Helium3.
 - Tankage: Removed dependency on Rational Resources.
 
-# 0.3.7
+## 0.3.7
 
 ### Additions
 - Added tank suite with these diameters: 2.5m, 3.75m, 5m.
@@ -158,7 +227,7 @@
 - Fixed KerbalismSystemHeat problems.
 - Ensured that all wrapper radiators' stock module stats still change when used with devices that still use/generate Core Heat when System Heat installed.
 
-# 0.3.6
+## 0.3.6
 
 ### Additions
 - Added World Power series parts: Giant vertical windmill and XXL solar panel.
@@ -173,7 +242,7 @@
 - Updated Waterfall configs to respect engines being duplicated and altered by Rational Resources Nuclear Family.
 
 
-# 0.3.5
+## 0.3.5
 
 ### Changes
 - Moved Batteries to their own folder and away from FuelCells.
@@ -186,14 +255,14 @@
 - Updated tech progression.
 
 
-# 0.3.1
+## 0.3.1
 
 ### Fixes
 - Fixed the System Heat Fission Engines module problem: Ensured that affected engines always hold the requested nuclear resource.
 - Updated localization (fixes an issue in the B9PS patch for the fuel cells).
 
 
-# 0.3.0
+## 0.3.0
 
 ### Additions
 - Added FusionPellets production to large ICF engine.
