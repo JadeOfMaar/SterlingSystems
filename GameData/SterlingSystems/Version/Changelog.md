@@ -1,5 +1,21 @@
 # Sterling Systems
 
+## 0.4.13 (WIP)
+
+### Additions
+- Updated Sterling Thermals:
+  - Added preheaters.
+
+### Changes
+- Updated Sterling Core:
+  - Increased unit cost of Fissile Pebbles.
+- Updated Sterling ThermalsPower:
+  - Resurfaced fission reactors.
+  - Increased Fissile Pebbles consumption rate. (It was too efficient.)
+- Updated Sterling Thermals:
+  - ThermalPower gauge on heatsinks now animates if System Heat installed.
+
+
 ## 0.4.12
 
 ### Additions
@@ -23,7 +39,6 @@
 ### Fixes
 - Updated World Power:
   - Fixed solar furnace config pointing to solar PV type 2's model, and other issues therein.
-
 
 
 ## 0.4.11
