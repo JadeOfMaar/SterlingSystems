@@ -27,7 +27,7 @@
   
 ### Changes
 - Updated Sterling Electrics:
-  - Added fuel cell B9 opion colors.
+  - Added fuel cell B9 option colors.
 - Updated Sterling Tankage:
   - Added options for Beryllium and LqdFluorine. Both are very hazardous so check the black tanks for them.
   - Added System Heat Boiloff compatibility. Instead of asking for ElectricCharge, cryotanks ask for their own loop.
