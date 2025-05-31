@@ -1,14 +1,26 @@
 # Sterling Systems
 
-## 0.4.13 (WIP)
+## 0.4.13
 
 ### Additions
 - Updated Sterling Thermals:
   - Added preheaters.
+  - Made heatsinks ThermalPower non-empty by default.
 
 ### Changes
 - Updated Sterling Core:
   - Increased unit cost of Fissile Pebbles.
+- Updated Sterling Engines:
+  - Added/Fixed missing defaults for nuclear engines' propellants when Rational Resources Nuclear Family not installed.
+- Updated Sterling Electrics:
+  - Added Real Battery compatibility. (Parts become 20x massive when this installed.)
+  - Updated costs and tech tree placement according to (and without) Real Battery.
+  - Resurfaced batteries, fuel cells and nukes (SCM, KRUSTY).
+- Updated Sterling Kerbalism:
+  - Gathered all Kerbalism configs here.
+  - Removed Minerals Splitter and ExoticMinerals Splitter recipe. Put those in Rational Resources Kerbalism.
+- Updated Sterling Tankage:
+  - Added MaterialKits and SpecializedParts.
 - Updated Sterling ThermalsPower:
   - Resurfaced fission reactors.
   - Increased Fissile Pebbles consumption rate. (It was too efficient.)
@@ -27,7 +39,7 @@
   
 ### Changes
 - Updated Sterling Electrics:
-  - Added fuel cell B9 opion colors.
+  - Added fuel cell B9 option colors.
 - Updated Sterling Tankage:
   - Added options for Beryllium and LqdFluorine. Both are very hazardous so check the black tanks for them.
   - Added System Heat Boiloff compatibility. Instead of asking for ElectricCharge, cryotanks ask for their own loop.
