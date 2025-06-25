@@ -15,13 +15,25 @@
 
 ### Changes
 
+- Updated Sterling Kerbalism:
+  - Added mode select and System Heat involved modules mode for refineries and printeries.
+  - Added System Heat involved modules mode for metal fuel cells. Module switching is WIP and weird right now but still playable.
 - Updated Sterling Thermals:
   - Retxtured wrapper graphene radiators.
+  - Updated title convention on wrapper radiators.
 - Updated Sterling Utilities:
   - Resurfaced circular refineries.
 - Updated Sterling UtilitiesConstruction:
   - Added heat emissive and spawn heading decal to the field parts.
   - Resurfaced circular printeries and the field parts.
+
+### Fixes
+
+- Updated Sterling Kerbalism:
+  - Fixed missing detections for System Heat radiators.
+  - Fixed big config error with solar panel fixer. Not sure if it helps anything, though.
+- Updated Sterling Thermals:
+  - Partial fix to super heavy shield losing heat tolerance when Ablator empty (for Deadly Reentry).
 
 
 ## 0.4.13
