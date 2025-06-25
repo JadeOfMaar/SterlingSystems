@@ -1,5 +1,29 @@
 # Sterling Systems
 
+## 0.4.14
+
+### Additions
+
+- Updated Sterling Electrics:
+  - Added Betavoltaics Real Battery configs.
+- Updated Sterling UtilitiesConstruction:
+  - Added inline construction pads to complement the printeries.
+- Updated Sterling Thermals:
+  - Added roll-out array radiators.
+- Updated Sterling ThermalsPower:
+  - Added Tritium configs for molten salt reactors and hazard tankage.
+
+### Changes
+
+- Updated Sterling Thermals:
+  - Retxtured wrapper graphene radiators.
+- Updated Sterling Utilities:
+  - Resurfaced circular refineries.
+- Updated Sterling UtilitiesConstruction:
+  - Added heat emissive and spawn heading decal to the field parts.
+  - Resurfaced circular printeries and the field parts.
+
+
 ## 0.4.13
 
 ### Additions
@@ -66,7 +90,7 @@
   - Updated windmills to be deployable always-on converters when Planetside Exploration Tech not installed.
 
 ### Changes
-- Updated Sterling Agency:
+- Updated Sterling Core:
   - All associated part upgrade and localization changes.
 - Updated Sterling Electrics, Thermals, Thermals Power:
   - Updated CTT locations of fission reactors and heat sinks.
