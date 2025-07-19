@@ -1,118 +1,80 @@
 # Sterling Systems
 
-## 0.4.14
+## 0.5.0
 
 ### Additions
-
+- Added Kerbal Health compatibility.
+- Added Sterling Kerbalism: Collection of Kerbalism specific things previously released with Rational Resources.
 - Updated Sterling Electrics:
-  - Added Betavoltaics Real Battery configs.
-- Updated Sterling UtilitiesConstruction:
-  - Added inline construction pads to complement the printeries.
+  - Added 0.625m Betavoltaics and Real Battery configs for them.
+- Updated Sterling Core:
+  - Added Alternate Resource Panel icons for nuclear resources.
+- Updated Sterling Tankage:
+  - Added Tritium configs for hazard tankage.
 - Updated Sterling Thermals:
+  - Added wrapper heatshields for stock Mk2 and Mk3 adapters.
+  - Added preheaters.
   - Added roll-out array radiators.
 - Updated Sterling ThermalsPower:
-  - Added Tritium configs for molten salt reactors and hazard tankage.
-
-### Changes
-
-- Updated Sterling Kerbalism:
-  - Added mode select and System Heat involved modules mode for refineries and printeries.
-  - Added System Heat involved modules mode for metal fuel cells. Module switching is WIP and weird right now but still playable.
-- Updated Sterling Thermals:
-  - Retxtured wrapper graphene radiators.
-  - Updated title convention on wrapper radiators.
-- Updated Sterling Utilities:
-  - Resurfaced circular refineries.
+  - Added Tritium configs for molten salt reactors.
 - Updated Sterling UtilitiesConstruction:
-  - Added heat emissive and spawn heading decal to the field parts.
-  - Resurfaced circular printeries and the field parts.
-
-### Fixes
-
-- Updated Sterling Kerbalism:
-  - Fixed missing detections for System Heat radiators.
-  - Fixed big config error with solar panel fixer. Not sure if it helps anything, though.
-- Updated Sterling Thermals:
-  - Partial fix to super heavy shield losing heat tolerance when Ablator empty (for Deadly Reentry).
-
-
-## 0.4.13
-
-### Additions
-- Updated Sterling Thermals:
-  - Added preheaters.
-  - Made heatsinks ThermalPower non-empty by default.
+  - Added inline construction pads to complement the printeries.
+- Updated Sterling World Power:
+  - Added solar panel type 2 and windmill type 2.
+  - Added tune-able wide radiator based on solar panel type 2.
 
 ### Changes
+- Updated All:
+  - Added missing tags to the great majority of parts.
 - Updated Sterling Core:
-  - Increased unit cost of Fissile Pebbles.
+  - All associated part upgrade and localization changes.
+  - Adjusted unit costs of Fissile Fuel and Fissile Pebbles.
 - Updated Sterling Engines:
   - Added/Fixed missing defaults for nuclear engines' propellants when Rational Resources Nuclear Family not installed.
+  - Added tail toggle for "Tiny" CCGC.
+  - Removed Nuclear Family implementation.
 - Updated Sterling Electrics:
+  - Updated CTT locations of fission reactors.
+  - Added fuel cell B9 option colors.
   - Added Real Battery compatibility. (Parts become 20x massive when this installed.)
   - Updated costs and tech tree placement according to (and without) Real Battery.
   - Resurfaced batteries, fuel cells and nukes (SCM, KRUSTY).
 - Updated Sterling Kerbalism:
+  - Added mode select and System Heat involved modules mode for refineries and printeries.
+  - Added System Heat involved modules mode for metal fuel cells. Module switching is WIP and weird right now but still playable.
   - Gathered all Kerbalism configs here.
   - Removed Minerals Splitter and ExoticMinerals Splitter recipe. Put those in Rational Resources Kerbalism.
 - Updated Sterling Tankage:
   - Added MaterialKits and SpecializedParts.
-- Updated Sterling ThermalsPower:
-  - Resurfaced fission reactors.
-  - Increased Fissile Pebbles consumption rate. (It was too efficient.)
-- Updated Sterling Thermals:
-  - ThermalPower gauge on heatsinks now animates if System Heat installed.
-
-
-## 0.4.12
-
-### Additions
-- Added Kerbal Health compatibility.
-- Updated Sterling Electrics:
-  - Added 0.625m Betavoltaics.
-- Updated Sterling Core:
-  - Added Alternate Resource Panel icons for nuclear resources.
-  
-### Changes
-- Updated Sterling Electrics:
-  - Added fuel cell B9 option colors.
-- Updated Sterling Tankage:
   - Added options for Beryllium and LqdFluorine. Both are very hazardous so check the black tanks for them.
   - Added System Heat Boiloff compatibility. Instead of asking for ElectricCharge, cryotanks ask for their own loop.
 - Updated Sterling Thermals:
-  - Rebalanced wrapper radiators. Cryo radiators are lower mass and capacity. Metal radiators are higher mass and capacity. Graphene radiators mostly gain but somewhat also lose.
-- Updated World Power:
-  - Resurfaced.
-
-### Fixes
-- Updated World Power:
-  - Fixed solar furnace config pointing to solar PV type 2's model, and other issues therein.
-
-
-## 0.4.11
-
-### Additions
-- Added Sterling Kerbalism: Collection of Kerbalism specific things previously released with Rational Resources.
-- Updated Sterling Thermals:
-  - Added wrapper heatshields for stock Mk2 and Mk3 adapters.
-- Updated Sterling World Power:
-  - Added solar panel type 2 and windmill type 2.
-  - Added tune-able wide radiator based on solar panel type 2.
-  - Added Resurfaced for these. (Actually this isn't working. Will figure out later.)
-  - Updated windmills to be deployable always-on converters when Planetside Exploration Tech not installed.
-
-### Changes
-- Updated Sterling Core:
-  - All associated part upgrade and localization changes.
-- Updated Sterling Electrics, Thermals, Thermals Power:
-  - Updated CTT locations of fission reactors and heat sinks.
-- Updated Sterling Engines:
-  - :warning: Removed Nuclear Family implementation. Seeking to test the waters with [Ignition](https://github.com/CharleRoger/Ignition/tree/main).
-- Updated Sterling Thermals:
-  - Made inline heatsinks upgrade-able, adding more mass, loop volume and ThermalPower capacity.
+  - Made inline heatsinks ThermalPower non-empty by default.
   - Made inline heatsinks lower mass and have 1/25 original ThermalPower capacity.
+  - Made inline heatsinks upgrade-able, adding more mass, loop volume and ThermalPower capacity.
+  - Rebalanced wrapper radiators. (Still botched, after another inspection.) Cryo radiators are lower mass and capacity. Metal radiators are higher mass and capacity. Graphene radiators mostly gain but somewhat also lose.
+  - Retxtured wrapper graphene radiators.
+  - ThermalPower gauge on heatsinks now animates if System Heat installed.
+  - Updated CTT locations of heat sinks.
+  - Updated title convention on wrapper radiators.
+- Updated Sterling ThermalsPower:
+  - Added nicknames to MSRs and PBRs. 
+  - Resurfaced all fission reactors.
+  - Increased Fissile Pebbles consumption rate. (It was too efficient.)
+  - Minor adjustment (number rounding) to ThermalPower outputs of MSRs and PBRs.
+  - Updated CTT locations of fission reactors.
+- Updated Sterling Utilities:
+  - Resurfaced circular refineries.
+- Updated Sterling UtilitiesConstruction:
+  - Added heat emissive to the field parts.
+  - Added missing ElectricCharge in 25m pad and Construction Field.
+  - Blacklisted ElectricCharge from Omnistorage in case of Real Battery installs.
+  - Enabled Omnistorage for 25m pad.
+  - Resurfaced circular printeries and the field parts.
 - Updated World Power:
   - Added toggle for Underground meshes.
+  - Resurfaced.
+  - Updated windmills to be deployable always-on converters when Planetside Exploration Tech not installed.
 
 ### Fixes
 - Updated Sterling Electrics:
@@ -121,17 +83,27 @@
   - Fixed Antimatter propellant ratio in 10m BCAM.
   - Fixed basic CRP config to not run when Classic Stock Resources (CSR) installed.
   - Added parallel CSR config.
+- Updated Sterling Kerbalism:
+  - Fixed missing detections for System Heat radiators.
+  - Fixed big config error with solar panel fixer. Not sure if it helps anything, though.
 - Updated Sterling Tankage:
   - Make Ore option always appear.
   - Fixed CRP detection fatal issue.
+  - Fixed typo in FFT antimatter containment cost logic.
+- Updated Sterling Thermals:
+  - Partial fix to super heavy shield losing heat tolerance when Ablator empty (for Deadly Reentry).
+- Updated Sterling ThermalsPower:
+  - Stopped fission reactors from eating national budgets.
 - Updated Sterling Utilities:
   - Fixed EL module injection patch to only affect Molten Metal Foundry.
 - Updated Sterling UtilitiesConstruction:
+  - Fixed missing `{` which may have crippled the spawners with Sandcastle.
   - Updated WBI Sandcastle module names per Sandcastle 1.3.0 release.
 - Updated World Power:
   - Fixed Solar PV panel whole part material changed when selecting concentrator variant.
-
-
+  - Fixed solar furnace config pointing to solar PV type 2's model, and other issues therein.
+  
+  
 ## 0.4.10
 
 ### Fixes
