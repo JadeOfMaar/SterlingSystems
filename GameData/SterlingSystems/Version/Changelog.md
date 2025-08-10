@@ -1,5 +1,30 @@
 # Sterling Systems
 
+## 0.5.1
+
+### Additions
+- Updated Sterling Electric:
+  - Added flat height variants to batteries.
+
+### Changes
+- Updated Sterling Kerbalism:
+  - Added RTG module to SubCritial Multiplier.
+  - Added RTG module (as BVG) to Betavoltaics. Half-life value set as 200 years but Kerbalism counts that under "perpetual."
+- Updated Sterling ThermalsPower:
+  - Slightly reduced shutdown temperature of Pebble Bed Reactors.
+
+### Fixes
+- Updated Sterling Kerbalism:
+  - Added CRP detection to fuel cell patch. This and Addresses invalid resource problems in case of installs of Simplex Kerbalism.
+  - Fixes to refinery mode 1. This mode is supposed to used switched SystemHeatConverterKerbalism modules.
+  - Fixed Molten Metal Foundries now receiving recipe modules.
+- Updated Sterling Tankage:
+  - Removed obsolete patch which affected added cost and mass in height selectors.
+- Updated Sterling World Power:
+  - Changed Gulf Stream radiators and the windmills to use IntakeAir by default and detect CRP to use IntakeAtm.
+  - Hopefully fixed heat emissive controller on Gulf Stream radiators.
+
+
 ## 0.5.0
 
 ### Additions
