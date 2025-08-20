@@ -3,7 +3,7 @@
 ## 0.5.1
 
 ### Additions
-- Updated Sterling Electric:
+- Updated Sterling Electrics:
   - Added flat height variants to batteries.
 - Updated Sterling Thermals:
   - Added Graphene boards.
