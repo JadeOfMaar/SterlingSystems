@@ -5,6 +5,8 @@
 ### Additions
 - Updated Sterling Electric:
   - Added flat height variants to batteries.
+- Updated Sterling Thermals:
+  - Added Graphene boards.
 
 ### Changes
 - Updated Sterling Kerbalism:
