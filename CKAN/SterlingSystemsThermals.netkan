@@ -1,14 +1,15 @@
-identifier: SterlingThermals
+identifier: SterlingSystemsThermals
 name: Sterling Thermals
+abstract: Radiators and shields (mostly conformal) and inline heatsinks
 $kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Thermals'
 $vref: '#/ckan/ksp-avc'
-abstract: Radiators and shields (mostly conformal) and inline heatsinks
+license: restricted
 tags:
   - parts
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-  - name: SterlingAgent
+  - name: SterlingSystemsAgency
 supports:
   - name: CryoTanks
   - name: FarFutureTechnologies

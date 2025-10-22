@@ -1,8 +1,9 @@
-identifier: SterlingUtilities
+identifier: SterlingSystemsUtilities
 name: Sterling Utilities
+abstract: Baseline stuff for ISRU plus other helpful things like fancy lights
 $kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Utilities'
 $vref: '#/ckan/ksp-avc'
-abstract: Baseline stuff for ISRU plus other helpful things like fancy lights
+license: restricted
 tags:
   - config
   - parts
@@ -10,7 +11,7 @@ tags:
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-  - name: SterlingAgent
+  - name: SterlingSystemsAgency
   - name: WildBlueCore
   - name: WildBlueTools
 install:

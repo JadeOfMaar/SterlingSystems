@@ -1,15 +1,16 @@
-identifier: SterlingEnginesFu
+identifier: SterlingSystemsEnginesFusion
 name: Sterling Engines - Fusion
+abstract: Engines that burn fusion fuels
 $kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Engines'
 $vref: '#/ckan/ksp-avc'
-abstract: Engines that burn fusion fuels
+license: restricted
 tags:
   - parts
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-  - name: SterlingAgent
-  - name: SterlingEngines
+  - name: SterlingSystemsAgency
+  - name: SterlingSystemsEngines
 install:
   - find: EnginesFusion
     install_to: GameData/SterlingSystems

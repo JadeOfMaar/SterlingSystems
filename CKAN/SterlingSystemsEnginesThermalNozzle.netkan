@@ -1,15 +1,18 @@
-identifier: SterlingEnginesTN
+identifier: SterlingSystemsEnginesThermalNozzle
 name: Sterling Engines - Thermal Nozzles
+abstract: >-
+  Engines that chug on the heat from any nearby compatible reactor
+  and offer amazing thrust
 $kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Engines'
 $vref: '#/ckan/ksp-avc'
-abstract: Engines that chug on the heat from any nearby compatible reactor and offer amazing thrust
+license: restricted
 tags:
   - parts
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-  - name: SterlingAgent
-  - name: SterlingEngines
+  - name: SterlingSystemsAgency
+  - name: SterlingSystemsEngines
 install:
   - find: EnginesThermalNozzle
     install_to: GameData/SterlingSystems
