@@ -9,7 +9,8 @@
   - Applied missing/needed values for gas tank types. Aligned with expectations of Procedural Parts gas tank.
 - Updated Sterling Thermals:
   - Improved DRE config for super heavy shield.
-  - Triangle board radiators show angles in their variant titles.
+  - Changed Triangle board radiators to show angles in their variant titles.
+  - Fixed Triangle board radiator offering 96 MW where it should offer 9.6 MW.
 - Updated Sterling ThermalsPower:
   - Changed Pebble Bed Reactors to dump excess on ThermalPower.
 - Updated Sterling Utilities:
