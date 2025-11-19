@@ -1,15 +1,16 @@
-identifier: SterlingTankage
+identifier: SterlingSystemsTankage
 name: Sterling Tankage
+abstract: Tank you very much. Do come again
 $kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Tankage'
 $vref: '#/ckan/ksp-avc'
-abstract: Tank you very much. Do come again
+license: restricted
 tags:
   - parts
   - resources
 depends:
   - name: ModuleManager
   - name: B9PartSwitch
-  - name: SterlingAgent
+  - name: SterlingSystemsAgency
   - name: WildBlueTools
 supports:
   - name: CryoTanks

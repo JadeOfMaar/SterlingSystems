@@ -1,8 +1,9 @@
-identifier: SterlingAgent
-name: Sterling Agency
+identifier: SterlingSystemsAgency
+name: Sterling Systems Agency
+abstract: Core things including localization and resources.
 $kref: '#/ckan/github/JadeOfMaar/SterlingSystems/asset_match/Core'
 $vref: '#/ckan/ksp-avc'
-abstract: Core things for Sterling Systems, including localization and resources.
+license: restricted
 tags:
   - agency
   - config
@@ -15,8 +16,6 @@ recommends:
   - name: SystemHeat
   - name: VABOrganizer
   - name: VABOrganizer-Jade
-  - name: WildBlueCore
-  - name: WildBlueTools
 install:
   - find: Agency
     install_to: GameData/SterlingSystems
