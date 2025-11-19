@@ -1,5 +1,41 @@
 # Sterling Systems
 
+## 0.5.2
+
+### Changes
+- Updated Sterling Engines:
+  - Revised the formulas and heat curves in the System Heat patches.
+- Updated Sterling Tankage:
+  - Applied missing/needed values for gas tank types. Aligned with expectations of Procedural Parts gas tank.
+- Updated Sterling Thermals:
+  - Improved DRE config for super heavy shield.
+  - Triangle board radiators show angles in their variant titles.
+- Updated Sterling ThermalsPower:
+  - Changed Pebble Bed Reactors to dump excess on ThermalPower.
+- Updated Sterling Utilities:
+  - Added EnrU capacity and NFE modules to Fissile Foundries.
+- Updated Sterling UtilitiesConstruction:
+  - Added missing buff to crash tolerance of pads and runways: 15 --> 150 m/s.
+  - Added Omniconverter recipes for Thermal Ironwork (EL MetalOre refining) and Thermal Remelter (EL ScrapMetal recycling).
+  - Changed byproduct resources in Omniconverter recipes to gas form.
+  - Gave non-default internal names to spawner pads (for the in-flight EL window).
+- Updated Sterling World Power:
+  - Added heatsink (System Heat volume) upgrade to Gulf Stream TCS.
+  - Slowed fan spin animation in Gulf Stream TCS.
+  - Made Gulf Stream TCS into resource converters that produce negative heat for System Heat. System Heat Radiator module does not respect resource deprived status, allowing for air-breathing in vacuum.
+  
+### Fixes
+- Updated Sterling Electrics:
+  - Fixed Real Battery patch. It now needs to provide the System Heat module for itself.
+- Updated Sterling Engines:
+  - Fixed antimatter and fusion engines no longer receiving System Heat modules. Erroneously needed RR Nuclear Family to not be installed.
+- Updated Sterling Thermals:
+  - Added Tweakscale for rollout radiators.
+  - Added legacy heat animation to boards and roll-out radiators for non-System Heat players.
+  - Added radiator boards to Simple Repaint blacklist.
+  - Fixed triangle board option providing 10x the power it should.
+
+
 ## 0.5.1
 
 ### Additions
