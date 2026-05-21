@@ -5,6 +5,11 @@
 ### Additions
 - Added Sterling Structural
   - Added Super Heavy Shield 2 with variants: Glass, White Armor, Perfect Mirror.
+- Updated Sterling Engines Thermal:
+  - Added 0.625m rocket and jet for landers.
+  - Added dyson bladeless style tilt engines.
+  - Added dual-mode aerospike nacelle.
+  - Added high-thrust RCS array parts.
 - Updated Sterling Thermals:
   - Added giant cryo radiator boards.
 - Updated Sterling World Power:
