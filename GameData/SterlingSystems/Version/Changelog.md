@@ -22,7 +22,7 @@
 - Updated Sterling Electrics:
   - Made solar panels have 1/10 the previous mass and cost. They were quite heavy, and supposedly, were also excessively pricey.
   - Adjusted Delta Electro A series generators: Modest reductions of mass and cost.
-  - Updated RealBattery config per RealBattery v2.3.0.
+  - Updated RealBattery config per RealBattery v3.0.2.
 
 ### Fixes
 - Updated Sterling Engines:
