@@ -1,5 +1,46 @@
 # Sterling Systems
 
+## 0.6
+
+### Additions
+- Added Sterling Structural
+  - Added Super Heavy Shield 2 with variants: Glass, White Armor, Perfect Mirror.
+- Updated Sterling Engines Thermal:
+  - Added 0.625m rocket and jet for landers.
+  - Added dyson bladeless style tilt engines.
+  - Added dual-mode aerospike nacelle.
+  - Added high-thrust RCS array parts.
+- Updated Sterling Thermals:
+  - Added giant cryo radiator boards.
+- Updated Sterling World Power:
+  - Added batteries, fuel cells, heatsinks.
+  - Added VABO standardization for grid sizes.
+  - Updated models and configs for VABO standard.
+  - Added Interstellar MJ chemistry for batteries.
+
+### Changes
+- Updated Sterling Electrics:
+  - Made solar panels have 1/10 the previous mass and cost. They were quite heavy, and supposedly, were also excessively pricey.
+  - Adjusted Delta Electro A series generators: Modest reductions of mass and cost.
+  - Updated RealBattery config per RealBattery v3.0.2.
+
+### Fixes
+- Updated Sterling Engines:
+  - Deactivated Classic Stock Resources (CSR) integration as the detection somehow backfires (forced active) when WBI mods are installed but not set to CSR.
+  - Fixed wrong System Heat overlay icon on thermal nozzles.
+- Updated Sterling Kerbalism:
+  - Fixed resource name error in the supply nodes (Fissile Pebbles).
+- Updated Sterling ThermalsExotic:
+  - Updated B9 tooltip formatting and fixed interlink mesh location on 90m LFR.
+- Updated Sterling ThermalsPower:
+  - Fixed wrong/invalid System Heat overlay icon on fission reactors.
+- Updated Sterling Utilities:
+  - Changed Omniconverter swapping to require RocketParts by default. (Somehow this remained set to WBI Equipment.)
+  - Updated dependency from WildBlueTools to WBIResources.
+- Updated Sterling UtilitiesConstruction:
+  - Increased clearance distance on (deployed) spawn transform on the inline launchpads. New value range is 15m ~ 40m. Also changed orientation so spawned vessels are less likely to clip the parent vessel.
+
+
 ## 0.5.2
 
 ### Changes
@@ -8,7 +49,7 @@
 - Updated Sterling Tankage:
   - Applied missing/needed values for gas tank types. Aligned with expectations of Procedural Parts gas tank.
 - Updated Sterling Thermals:
-  - Improved DRE config for super heavy shield.
+  - Improved DRE config for super heavy shield 1.
   - Changed Triangle board radiators to show angles in their variant titles.
   - Fixed Triangle board radiator offering 96 MW where it should offer 9.6 MW.
 - Updated Sterling ThermalsPower:
