@@ -4,3 +4,6 @@
 *.png
 *.tga
 /scraps
+src/**/bin/
+src/**/obj/
+src/**/.vs/
