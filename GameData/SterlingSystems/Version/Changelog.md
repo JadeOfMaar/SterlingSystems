@@ -1,5 +1,46 @@
 # Sterling Systems
 
+## 0.6.1
+
+### Additions
+- Updated Sterling Agency:
+  - Added upgrade definitions for battery chemistries.
+- Updated Sterling Electrics:
+  - Added/Revised RealBattery chemistries.
+  - Added non-RealBattery chemistries.
+- Updated Sterling Kerbalism:
+  - Added standardized formula for engine radioactivity and tagged missing engines with it.
+- Updated Sterling World Power:
+  - Received custom module for dual axis solar panels and radiators.
+  - Added/Revised RealBattery chemistries.
+  - Added non-RealBattery chemistries.
+
+### Changes
+- Updated Sterling Kerbalism:
+  - Changed pebble bed reactors' one option to a Configure option.
+- Updated Sterling Tankage:
+  - Lowered Fluorine boiloff temperature.
+  - Reduced crash tolerances...
+
+### Fixes
+- Updated Sterling Agency:
+  - Centralized B9 tank definitions here. This should fix the tankage and fuel cell problems.
+- Updated Sterling Engines:
+  - Fixed thermal nozzle aerospike engines should require IntakeAir by default (when CRP not installed).
+  - Fixed thermal nozzle aerospike engines not ignoring LF for thrust curve. They're not supposed to weaken as LF is used up.
+  - Fixed System Heat module ID mismatch in some engines.
+  - Fixed wet cost of ICF engines.
+- Updated Sterling Kerbalism:
+  - Fixed erroneous FOR that shouldn't have been there.
+  - Removed WBI resources as the soft dependence thereof, within Kerbalism, is usually not a thing and is a cause for crashes.
+- Updated Sterling Tankage:
+  - Added missing Carbon Monoxide...
+- Updated Sterling Thermals:
+  - Added missing entry for cryo radiator boards to be ignored by Simple Repaint.
+- Updated Sterling Utilities:
+  - Added Scrap Fizzled Pebbles recipe.
+
+
 ## 0.6
 
 ### Additions
