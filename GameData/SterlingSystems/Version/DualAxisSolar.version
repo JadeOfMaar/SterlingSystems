@@ -1,12 +1,12 @@
 {
-  "NAME": "DualAxisSolar",
-  "DOWNLOAD": "",
-  "VERSION": {
-    "MAJOR": 1,
-    "MINOR": 0,
-    "PATCH": 0,
-    "BUILD": 0
-  },
-  "KSP_VERSION_MIN": "1.12.0",
-  "KSP_VERSION_MAX": "1.12.99"
+	"NAME": "DualAxisSolar",
+	"DOWNLOAD": "",
+	"VERSION": {
+		"MAJOR": 1,
+		"MINOR": 0,
+		"PATCH": 0,
+		"BUILD": 0
+	},
+	"KSP_VERSION_MIN": "1.12.0",
+	"KSP_VERSION_MAX": "1.12.99"
 }
