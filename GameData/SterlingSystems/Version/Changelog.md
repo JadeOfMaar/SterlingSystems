@@ -18,6 +18,8 @@
 ### Changes
 - Updated Sterling Kerbalism:
   - Changed pebble bed reactors' one option to a Configure option.
+- Updated Sterling Engines:
+  - Balance pass on thermal nozzles. Aerospikes and RCS ask for much less ThermalPower. Bell nozzled engines ask for a little more.
 - Updated Sterling Tankage:
   - Lowered Fluorine boiloff temperature.
   - Reduced crash tolerances...
@@ -30,6 +32,7 @@
   - Fixed thermal nozzle aerospike engines not ignoring LF for thrust curve. They're not supposed to weaken as LF is used up.
   - Fixed System Heat module ID mismatch in some engines.
   - Fixed wet cost of ICF engines.
+  - Removed forgotten patch that caused ThermalPower demand to show up twice in some engines.
 - Updated Sterling Kerbalism:
   - Fixed erroneous FOR that shouldn't have been there.
   - Removed WBI resources as the soft dependence thereof, within Kerbalism, is usually not a thing and is a cause for crashes.
