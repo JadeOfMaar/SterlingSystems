@@ -20,6 +20,7 @@
   - Changed pebble bed reactors' one option to a Configure option.
 - Updated Sterling Engines:
   - Balance pass on thermal nozzles. Aerospikes and RCS ask for much less ThermalPower. Bell nozzled engines ask for a little more.
+  - Greatly reduced thrust on Olympian ICF engine. Its tiny size (for a Daedalus alike) was letting it be too good. Kerbalism radioactivity would make this unplayable.
 - Updated Sterling Tankage:
   - Lowered Fluorine boiloff temperature.
   - Reduced crash tolerances...
@@ -40,6 +41,7 @@
   - Added missing Carbon Monoxide...
 - Updated Sterling Thermals:
   - Added missing entry for cryo radiator boards to be ignored by Simple Repaint.
+  - Balance pass on all radiators. They were far too lightweight.
 - Updated Sterling Utilities:
   - Added Scrap Fizzled Pebbles recipe.
 
