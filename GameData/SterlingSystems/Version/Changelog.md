@@ -5,11 +5,14 @@
 ### Additions
 - Updated Sterling Agency:
   - Added upgrade definitions for battery chemistries.
+  - Updated resource: Beryllium.
 - Updated Sterling Electrics:
   - Added/Revised RealBattery chemistries.
   - Added non-RealBattery chemistries.
 - Updated Sterling Kerbalism:
   - Added standardized formula for engine radioactivity and tagged missing engines with it.
+- Updated Sterling Utilities:
+  - Added Omniconverter recipes for thermal powered refinement.
 - Updated Sterling World Power:
   - Received custom module for dual axis solar panels and radiators.
   - Added/Revised RealBattery chemistries.
