@@ -1,3 +1,5 @@
+// Deactivated this. CKAN complainedabout too many version files found.
+
 {
 	"NAME": "DualAxisSolar",
 	"DOWNLOAD": "",
