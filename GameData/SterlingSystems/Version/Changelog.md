@@ -15,9 +15,9 @@
 - Updated Sterling UtilitiesConstruction:
   - Added Global Construction support (assembly space) to inline pads, 25m rocket pad and Construction Field.
 - Updated Sterling World Power:
-  - Received custom module for dual axis solar panels and radiators.
   - Added/Revised RealBattery chemistries.
   - Added non-RealBattery chemistries.
+  - Received custom module for dual axis solar panels and radiators.
 
 ### Changes
 - Updated Sterling Kerbalism:
