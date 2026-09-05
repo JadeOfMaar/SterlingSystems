@@ -5,7 +5,6 @@
 ### Additions
 - Updated Sterling Agency:
   - Added upgrade definitions for battery chemistries.
-  - Updated resource: Beryllium.
 - Updated Sterling Electrics:
   - Added/Revised RealBattery chemistries.
   - Added non-RealBattery chemistries.
@@ -13,6 +12,8 @@
   - Added standardized formula for engine radioactivity and tagged missing engines with it.
 - Updated Sterling Utilities:
   - Added Omniconverter recipes for thermal powered refinement.
+- Updated Sterling UtilitiesConstruction:
+  - Added Global Construction support (assembly space) to inline pads, 25m rocket pad and Construction Field.
 - Updated Sterling World Power:
   - Received custom module for dual axis solar panels and radiators.
   - Added/Revised RealBattery chemistries.
@@ -23,6 +24,7 @@
   - Changed pebble bed reactors' one option to a Configure option.
 - Updated Sterling Engines:
   - Balance pass on thermal nozzles. Aerospikes and RCS ask for much less ThermalPower. Bell nozzled engines ask for a little more.
+  - Increased thrust of 2.5m TN-DL engine.
   - Greatly reduced thrust on Olympian ICF engine. Its tiny size (for a Daedalus alike) was letting it be too good. Kerbalism radioactivity would make this unplayable.
 - Updated Sterling Tankage:
   - Lowered Fluorine boiloff temperature.
@@ -31,7 +33,9 @@
 ### Fixes
 - Updated Sterling Agency:
   - Centralized B9 tank definitions here. This should fix the tankage and fuel cell problems.
+  - Updated resource: Beryllium.
 - Updated Sterling Engines:
+  - Added missing Community Tech Tree support for most thermal nozzle things.
   - Fixed thermal nozzle aerospike engines should require IntakeAir by default (when CRP not installed).
   - Fixed thermal nozzle aerospike engines not ignoring LF for thrust curve. They're not supposed to weaken as LF is used up.
   - Fixed System Heat module ID mismatch in some engines.
@@ -44,6 +48,7 @@
   - Added missing Carbon Monoxide...
 - Updated Sterling Thermals:
   - Added missing entry for cryo radiator boards to be ignored by Simple Repaint.
+  - Added (a donated) Shabby fix for the flickering issue of the stackable LFRs.
   - Balance pass on all radiators. They were far too lightweight.
 - Updated Sterling Utilities:
   - Added Scrap Fizzled Pebbles recipe.
