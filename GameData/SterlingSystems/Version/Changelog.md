@@ -1,5 +1,19 @@
 # Sterling Systems
 
+## 0.6.2
+
+### Fixes
+- Updated Sterling Electrics:
+  - Rebalanced Delta Electro parts. Reduced their mass to 30% of original.
+- Updated Sterling UtilitiesConstruction:
+  - Increaded Global Construction assembly zone size. It was too on-the-nose with the size of the default DIY container and would not allow the container to spawn in it.
+  - Updated the spawn transform name for Sandcastle compatibility. This was leading to a null and spawn krakens.
+- Updated Sterling World Power:
+  - Fixed Iron battery chemistry issue. (The World Power batteries should not receive the mass penalty of this selection.)
+
+### Removals
+- Deprecated Sterling Systems Kerbalism. It is baked into Kerbalism 3.40 or later.
+
 ## 0.6.1
 
 ### Additions
